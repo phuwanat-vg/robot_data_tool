@@ -23,6 +23,8 @@ setup(
         'console_scripts': [
             "map_pose_provider = robot_data_tool.map_pose_provider:main",
             "robot_detail = robot_data_tool.robot_detail:main",
+            "absolute_origin_laser = robot_data_tool.absolute_origin_laser:main",
+
         ],
     },
 )
